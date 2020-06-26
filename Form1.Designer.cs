@@ -28,16 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.lb_Files = new System.Windows.Forms.ListBox();
             this.tb_Dir = new System.Windows.Forms.TextBox();
             this.btn_Browse = new System.Windows.Forms.Button();
@@ -47,11 +46,6 @@
             this.btn_BrowseSweeps = new System.Windows.Forms.Button();
             this.tb_Sweeps = new System.Windows.Forms.TextBox();
             this.btn_Export = new System.Windows.Forms.Button();
-            this.cb_Export_Full = new System.Windows.Forms.CheckBox();
-            this.cb_Export_LeftHalf = new System.Windows.Forms.CheckBox();
-            this.cb_Export_RightHalf = new System.Windows.Forms.CheckBox();
-            this.cb_Export_FirstQuarter = new System.Windows.Forms.CheckBox();
-            this.cb_Export_LastQuarter = new System.Windows.Forms.CheckBox();
             this.tb_CompInfo = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.bt_StartSim = new System.Windows.Forms.Button();
@@ -66,7 +60,6 @@
             this.label9 = new System.Windows.Forms.Label();
             this.tb_IP = new System.Windows.Forms.TextBox();
             this.btn_ExportAll = new System.Windows.Forms.Button();
-            this.cb_py = new System.Windows.Forms.CheckBox();
             this.tb_packn = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.cb_inseries = new System.Windows.Forms.CheckBox();
@@ -82,6 +75,18 @@
             this.tb_section = new System.Windows.Forms.TextBox();
             this.cb_My = new System.Windows.Forms.CheckBox();
             this.cb_Fy = new System.Windows.Forms.CheckBox();
+            this.btn_minit = new System.Windows.Forms.Button();
+            this.tb_minit = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.tb_colname = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.cb_autoground = new System.Windows.Forms.CheckBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.btn_ExportSel = new System.Windows.Forms.Button();
+            this.chart2 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart2)).BeginInit();
@@ -89,17 +94,17 @@
             // 
             // chart1
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
-            this.chart1.Location = new System.Drawing.Point(265, 11);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
+            this.chart1.Location = new System.Drawing.Point(270, 11);
             this.chart1.Name = "chart1";
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chart1.Series.Add(series3);
-            this.chart1.Size = new System.Drawing.Size(740, 365);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
+            this.chart1.Size = new System.Drawing.Size(740, 260);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
             this.chart1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.chart1_MouseDown);
@@ -114,7 +119,6 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 1;
-            this.comboBox1.Text = "8Avg_FieldScan";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // pictureBox1
@@ -125,24 +129,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(384, 416);
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // chart2
-            // 
-            chartArea4.Name = "ChartArea1";
-            this.chart2.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.chart2.Legends.Add(legend4);
-            this.chart2.Location = new System.Drawing.Point(265, 393);
-            this.chart2.Margin = new System.Windows.Forms.Padding(2);
-            this.chart2.Name = "chart2";
-            series4.ChartArea = "ChartArea1";
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            this.chart2.Series.Add(series4);
-            this.chart2.Size = new System.Drawing.Size(740, 37);
-            this.chart2.TabIndex = 3;
-            this.chart2.Text = "chart2";
             // 
             // lb_Files
             // 
@@ -194,7 +180,7 @@
             // lb_Sweeps
             // 
             this.lb_Sweeps.FormattingEnabled = true;
-            this.lb_Sweeps.Location = new System.Drawing.Point(16, 414);
+            this.lb_Sweeps.Location = new System.Drawing.Point(16, 499);
             this.lb_Sweeps.Margin = new System.Windows.Forms.Padding(2);
             this.lb_Sweeps.Name = "lb_Sweeps";
             this.lb_Sweeps.Size = new System.Drawing.Size(241, 108);
@@ -203,7 +189,7 @@
             // 
             // btn_BrowseSweeps
             // 
-            this.btn_BrowseSweeps.Location = new System.Drawing.Point(219, 392);
+            this.btn_BrowseSweeps.Location = new System.Drawing.Point(219, 477);
             this.btn_BrowseSweeps.Margin = new System.Windows.Forms.Padding(2);
             this.btn_BrowseSweeps.Name = "btn_BrowseSweeps";
             this.btn_BrowseSweeps.Size = new System.Drawing.Size(37, 19);
@@ -214,7 +200,7 @@
             // 
             // tb_Sweeps
             // 
-            this.tb_Sweeps.Location = new System.Drawing.Point(16, 392);
+            this.tb_Sweeps.Location = new System.Drawing.Point(16, 477);
             this.tb_Sweeps.Margin = new System.Windows.Forms.Padding(2);
             this.tb_Sweeps.Name = "tb_Sweeps";
             this.tb_Sweeps.Size = new System.Drawing.Size(200, 20);
@@ -222,88 +208,33 @@
             // 
             // btn_Export
             // 
-            this.btn_Export.Location = new System.Drawing.Point(16, 359);
+            this.btn_Export.Location = new System.Drawing.Point(16, 330);
             this.btn_Export.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Export.Name = "btn_Export";
             this.btn_Export.Size = new System.Drawing.Size(111, 26);
             this.btn_Export.TabIndex = 15;
-            this.btn_Export.Text = "Export";
+            this.btn_Export.Text = "Export ActiveSim";
             this.btn_Export.UseVisualStyleBackColor = true;
             this.btn_Export.Click += new System.EventHandler(this.btn_Export_Click);
             // 
-            // cb_Export_Full
-            // 
-            this.cb_Export_Full.AutoSize = true;
-            this.cb_Export_Full.Location = new System.Drawing.Point(30, 577);
-            this.cb_Export_Full.Margin = new System.Windows.Forms.Padding(2);
-            this.cb_Export_Full.Name = "cb_Export_Full";
-            this.cb_Export_Full.Size = new System.Drawing.Size(42, 17);
-            this.cb_Export_Full.TabIndex = 16;
-            this.cb_Export_Full.Text = "Full";
-            this.cb_Export_Full.UseVisualStyleBackColor = true;
-            // 
-            // cb_Export_LeftHalf
-            // 
-            this.cb_Export_LeftHalf.AutoSize = true;
-            this.cb_Export_LeftHalf.Location = new System.Drawing.Point(95, 577);
-            this.cb_Export_LeftHalf.Margin = new System.Windows.Forms.Padding(2);
-            this.cb_Export_LeftHalf.Name = "cb_Export_LeftHalf";
-            this.cb_Export_LeftHalf.Size = new System.Drawing.Size(66, 17);
-            this.cb_Export_LeftHalf.TabIndex = 17;
-            this.cb_Export_LeftHalf.Text = "Left Half";
-            this.cb_Export_LeftHalf.UseVisualStyleBackColor = true;
-            // 
-            // cb_Export_RightHalf
-            // 
-            this.cb_Export_RightHalf.AutoSize = true;
-            this.cb_Export_RightHalf.Location = new System.Drawing.Point(173, 577);
-            this.cb_Export_RightHalf.Margin = new System.Windows.Forms.Padding(2);
-            this.cb_Export_RightHalf.Name = "cb_Export_RightHalf";
-            this.cb_Export_RightHalf.Size = new System.Drawing.Size(73, 17);
-            this.cb_Export_RightHalf.TabIndex = 18;
-            this.cb_Export_RightHalf.Text = "Right Half";
-            this.cb_Export_RightHalf.UseVisualStyleBackColor = true;
-            // 
-            // cb_Export_FirstQuarter
-            // 
-            this.cb_Export_FirstQuarter.AutoSize = true;
-            this.cb_Export_FirstQuarter.Location = new System.Drawing.Point(95, 601);
-            this.cb_Export_FirstQuarter.Margin = new System.Windows.Forms.Padding(2);
-            this.cb_Export_FirstQuarter.Name = "cb_Export_FirstQuarter";
-            this.cb_Export_FirstQuarter.Size = new System.Drawing.Size(83, 17);
-            this.cb_Export_FirstQuarter.TabIndex = 19;
-            this.cb_Export_FirstQuarter.Text = "First Quarter";
-            this.cb_Export_FirstQuarter.UseVisualStyleBackColor = true;
-            // 
-            // cb_Export_LastQuarter
-            // 
-            this.cb_Export_LastQuarter.AutoSize = true;
-            this.cb_Export_LastQuarter.Location = new System.Drawing.Point(173, 601);
-            this.cb_Export_LastQuarter.Margin = new System.Windows.Forms.Padding(2);
-            this.cb_Export_LastQuarter.Name = "cb_Export_LastQuarter";
-            this.cb_Export_LastQuarter.Size = new System.Drawing.Size(84, 17);
-            this.cb_Export_LastQuarter.TabIndex = 20;
-            this.cb_Export_LastQuarter.Text = "Last Quarter";
-            this.cb_Export_LastQuarter.UseVisualStyleBackColor = true;
-            // 
             // tb_CompInfo
             // 
-            this.tb_CompInfo.Location = new System.Drawing.Point(30, 639);
+            this.tb_CompInfo.Location = new System.Drawing.Point(19, 698);
             this.tb_CompInfo.Margin = new System.Windows.Forms.Padding(2);
             this.tb_CompInfo.Name = "tb_CompInfo";
-            this.tb_CompInfo.Size = new System.Drawing.Size(76, 20);
+            this.tb_CompInfo.Size = new System.Drawing.Size(35, 20);
             this.tb_CompInfo.TabIndex = 21;
             this.tb_CompInfo.Text = "3,0";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(28, 622);
+            this.label4.Location = new System.Drawing.Point(16, 651);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(150, 13);
+            this.label4.Size = new System.Drawing.Size(125, 13);
             this.label4.TabIndex = 22;
-            this.label4.Text = "Component, Avgd or Not (1/0)";
+            this.label4.Text = "Export and display option";
             // 
             // bt_StartSim
             // 
@@ -406,7 +337,7 @@
             // 
             // btn_ExportAll
             // 
-            this.btn_ExportAll.Location = new System.Drawing.Point(16, 529);
+            this.btn_ExportAll.Location = new System.Drawing.Point(16, 611);
             this.btn_ExportAll.Name = "btn_ExportAll";
             this.btn_ExportAll.Size = new System.Drawing.Size(108, 27);
             this.btn_ExportAll.TabIndex = 34;
@@ -414,20 +345,9 @@
             this.btn_ExportAll.UseVisualStyleBackColor = true;
             this.btn_ExportAll.Click += new System.EventHandler(this.btn_ExportAll_Click);
             // 
-            // cb_py
-            // 
-            this.cb_py.AutoSize = true;
-            this.cb_py.Location = new System.Drawing.Point(30, 600);
-            this.cb_py.Margin = new System.Windows.Forms.Padding(2);
-            this.cb_py.Name = "cb_py";
-            this.cb_py.Size = new System.Drawing.Size(61, 17);
-            this.cb_py.TabIndex = 35;
-            this.cb_py.Text = "FromPy";
-            this.cb_py.UseVisualStyleBackColor = true;
-            // 
             // tb_packn
             // 
-            this.tb_packn.Location = new System.Drawing.Point(30, 689);
+            this.tb_packn.Location = new System.Drawing.Point(19, 739);
             this.tb_packn.Name = "tb_packn";
             this.tb_packn.Size = new System.Drawing.Size(76, 20);
             this.tb_packn.TabIndex = 36;
@@ -436,16 +356,16 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(31, 670);
+            this.label10.Location = new System.Drawing.Point(16, 720);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(116, 13);
+            this.label10.Size = new System.Drawing.Size(204, 13);
             this.label10.TabIndex = 37;
-            this.label10.Text = "ExportAll Pack Number";
+            this.label10.Text = "Pack Number (# of ovf in a single text file)";
             // 
             // cb_inseries
             // 
             this.cb_inseries.AutoSize = true;
-            this.cb_inseries.Location = new System.Drawing.Point(125, 692);
+            this.cb_inseries.Location = new System.Drawing.Point(114, 742);
             this.cb_inseries.Name = "cb_inseries";
             this.cb_inseries.Size = new System.Drawing.Size(102, 17);
             this.cb_inseries.TabIndex = 38;
@@ -539,9 +459,9 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(18, 289);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(202, 13);
+            this.label11.Size = new System.Drawing.Size(251, 13);
             this.label11.TabIndex = 48;
-            this.label11.Text = "section (x,y range or r,phi range) (um,deg)";
+            this.label11.Text = "simulation section (x,y range or r,phi range) (um,deg)";
             // 
             // tb_section
             // 
@@ -573,11 +493,144 @@
             this.cb_Fy.Text = "Fy";
             this.cb_Fy.UseVisualStyleBackColor = true;
             // 
+            // btn_minit
+            // 
+            this.btn_minit.Location = new System.Drawing.Point(219, 404);
+            this.btn_minit.Margin = new System.Windows.Forms.Padding(2);
+            this.btn_minit.Name = "btn_minit";
+            this.btn_minit.Size = new System.Drawing.Size(37, 19);
+            this.btn_minit.TabIndex = 52;
+            this.btn_minit.Text = "..";
+            this.btn_minit.UseVisualStyleBackColor = true;
+            this.btn_minit.Click += new System.EventHandler(this.btn_minit_Click);
+            // 
+            // tb_minit
+            // 
+            this.tb_minit.Location = new System.Drawing.Point(16, 404);
+            this.tb_minit.Margin = new System.Windows.Forms.Padding(2);
+            this.tb_minit.Name = "tb_minit";
+            this.tb_minit.Size = new System.Drawing.Size(200, 20);
+            this.tb_minit.TabIndex = 51;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(13, 386);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(69, 13);
+            this.label12.TabIndex = 53;
+            this.label12.Text = "ground state:";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(13, 463);
+            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(110, 13);
+            this.label13.TabIndex = 54;
+            this.label13.Text = "lb_Sweeps_Directory:";
+            // 
+            // tb_colname
+            // 
+            this.tb_colname.Location = new System.Drawing.Point(308, 444);
+            this.tb_colname.Name = "tb_colname";
+            this.tb_colname.Size = new System.Drawing.Size(114, 20);
+            this.tb_colname.TabIndex = 56;
+            this.tb_colname.Text = "fileN (),Hext (T)";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(265, 431);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(157, 13);
+            this.label15.TabIndex = 57;
+            this.label15.Text = "table column name: fieldN,Xaxis";
+            // 
+            // cb_autoground
+            // 
+            this.cb_autoground.AutoSize = true;
+            this.cb_autoground.Location = new System.Drawing.Point(15, 431);
+            this.cb_autoground.Margin = new System.Windows.Forms.Padding(2);
+            this.cb_autoground.Name = "cb_autoground";
+            this.cb_autoground.Size = new System.Drawing.Size(80, 17);
+            this.cb_autoground.TabIndex = 58;
+            this.cb_autoground.Text = "autoground";
+            this.cb_autoground.UseVisualStyleBackColor = true;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(15, 666);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(191, 13);
+            this.label14.TabIndex = 59;
+            this.label14.Text = "1st #: m component (mx=1,my=2,mz=3)";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(15, 681);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(191, 13);
+            this.label16.TabIndex = 60;
+            this.label16.Text = "2nd #: Single=0, 8-Avgd=1, 8-Snaps=2";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(100, 432);
+            this.label17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(135, 13);
+            this.label17.TabIndex = 61;
+            this.label17.Text = "set -m0 as the ground state";
+            // 
+            // btn_ExportSel
+            // 
+            this.btn_ExportSel.Location = new System.Drawing.Point(148, 611);
+            this.btn_ExportSel.Name = "btn_ExportSel";
+            this.btn_ExportSel.Size = new System.Drawing.Size(108, 27);
+            this.btn_ExportSel.TabIndex = 62;
+            this.btn_ExportSel.Text = "Export Selected";
+            this.btn_ExportSel.UseVisualStyleBackColor = true;
+            this.btn_ExportSel.Click += new System.EventHandler(this.btn_ExportSel_Click);
+            // 
+            // chart2
+            // 
+            chartArea2.Name = "ChartArea1";
+            this.chart2.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart2.Legends.Add(legend2);
+            this.chart2.Location = new System.Drawing.Point(270, 275);
+            this.chart2.Name = "chart2";
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chart2.Series.Add(series2);
+            this.chart2.Size = new System.Drawing.Size(740, 149);
+            this.chart2.TabIndex = 63;
+            this.chart2.Text = "chart2";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1016, 849);
+            this.ClientSize = new System.Drawing.Size(1020, 849);
+            this.Controls.Add(this.chart2);
+            this.Controls.Add(this.btn_ExportSel);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.cb_autoground);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.tb_colname);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.btn_minit);
+            this.Controls.Add(this.tb_minit);
             this.Controls.Add(this.cb_My);
             this.Controls.Add(this.cb_Fy);
             this.Controls.Add(this.label11);
@@ -593,7 +646,6 @@
             this.Controls.Add(this.cb_inseries);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.tb_packn);
-            this.Controls.Add(this.cb_py);
             this.Controls.Add(this.btn_ExportAll);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.tb_IP);
@@ -608,11 +660,6 @@
             this.Controls.Add(this.bt_StartSim);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.tb_CompInfo);
-            this.Controls.Add(this.cb_Export_LastQuarter);
-            this.Controls.Add(this.cb_Export_FirstQuarter);
-            this.Controls.Add(this.cb_Export_RightHalf);
-            this.Controls.Add(this.cb_Export_LeftHalf);
-            this.Controls.Add(this.cb_Export_Full);
             this.Controls.Add(this.btn_Export);
             this.Controls.Add(this.btn_BrowseSweeps);
             this.Controls.Add(this.tb_Sweeps);
@@ -622,7 +669,6 @@
             this.Controls.Add(this.btn_Browse);
             this.Controls.Add(this.tb_Dir);
             this.Controls.Add(this.lb_Files);
-            this.Controls.Add(this.chart2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.chart1);
@@ -642,7 +688,6 @@
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart2;
         private System.Windows.Forms.ListBox lb_Files;
         private System.Windows.Forms.TextBox tb_Dir;
         private System.Windows.Forms.Button btn_Browse;
@@ -652,11 +697,6 @@
         private System.Windows.Forms.Button btn_BrowseSweeps;
         private System.Windows.Forms.TextBox tb_Sweeps;
         private System.Windows.Forms.Button btn_Export;
-        private System.Windows.Forms.CheckBox cb_Export_Full;
-        private System.Windows.Forms.CheckBox cb_Export_LeftHalf;
-        private System.Windows.Forms.CheckBox cb_Export_RightHalf;
-        private System.Windows.Forms.CheckBox cb_Export_FirstQuarter;
-        private System.Windows.Forms.CheckBox cb_Export_LastQuarter;
         private System.Windows.Forms.TextBox tb_CompInfo;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button bt_StartSim;
@@ -671,7 +711,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox tb_IP;
         private System.Windows.Forms.Button btn_ExportAll;
-        private System.Windows.Forms.CheckBox cb_py;
         private System.Windows.Forms.TextBox tb_packn;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.CheckBox cb_inseries;
@@ -687,6 +726,18 @@
         private System.Windows.Forms.TextBox tb_section;
         private System.Windows.Forms.CheckBox cb_My;
         private System.Windows.Forms.CheckBox cb_Fy;
+        private System.Windows.Forms.Button btn_minit;
+        private System.Windows.Forms.TextBox tb_minit;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox tb_colname;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.CheckBox cb_autoground;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button btn_ExportSel;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart2;
     }
 }
 

@@ -1,0 +1,93 @@
+C:\Users\Bill\AppData\Local\Temporary Projects\MuMaxViewer\bin\Debug\MuMaxViewer.exe
+C:\Users\Bill\AppData\Local\Temporary Projects\MuMaxViewer\bin\Debug\MuMaxViewer.pdb
+C:\Users\Bill\AppData\Local\Temporary Projects\MuMaxViewer\obj\x86\Debug\MuMaxViewer.Form1.resources
+C:\Users\Bill\AppData\Local\Temporary Projects\MuMaxViewer\obj\x86\Debug\MuMaxViewer.Properties.Resources.resources
+C:\Users\Bill\AppData\Local\Temporary Projects\MuMaxViewer\obj\x86\Debug\MuMaxViewer.csproj.GenerateResource.Cache
+C:\Users\Bill\AppData\Local\Temporary Projects\MuMaxViewer\obj\x86\Debug\MuMaxViewer.exe
+C:\Users\Bill\AppData\Local\Temporary Projects\MuMaxViewer\obj\x86\Debug\MuMaxViewer.pdb
+D:\Code\CSharp\MuMaxViewer\MuMaxViewer\obj\x86\Debug\MuMaxViewer.exe
+D:\Code\CSharp\MuMaxViewer\MuMaxViewer\obj\x86\Debug\MuMaxViewer.pdb
+D:\Code\CSharp\MuMaxViewer\MuMaxViewer\bin\Debug\MuMaxViewer.exe
+D:\Code\CSharp\MuMaxViewer\MuMaxViewer\bin\Debug\MuMaxViewer.pdb
+D:\Code\CSharp\MuMaxViewer\MuMaxViewer\obj\x86\Debug\MuMaxViewer.Form1.resources
+D:\Code\CSharp\MuMaxViewer\MuMaxViewer\obj\x86\Debug\MuMaxViewer.Properties.Resources.resources
+D:\Code\CSharp\MuMaxViewer\MuMaxViewer\obj\x86\Debug\MuMaxViewer.csproj.GenerateResource.Cache
+C:\Research\Code\C#\MuMaxViewer\MuMaxViewer\obj\x86\Debug\MuMaxViewer.exe
+C:\Research\Code\C#\MuMaxViewer\MuMaxViewer\obj\x86\Debug\MuMaxViewer.pdb
+C:\Research\Code\C#\MuMaxViewer\MuMaxViewer\bin\Debug\MuMaxViewer.exe
+C:\Research\Code\C#\MuMaxViewer\MuMaxViewer\bin\Debug\MuMaxViewer.pdb
+C:\Research\Code\C#\MuMaxViewer\MuMaxViewer\obj\x86\Debug\MuMaxViewer.Form1.resources
+C:\Research\Code\C#\MuMaxViewer\MuMaxViewer\obj\x86\Debug\MuMaxViewer.Properties.Resources.resources
+C:\Research\Code\C#\MuMaxViewer\MuMaxViewer\obj\x86\Debug\MuMaxViewer.csproj.GenerateResource.Cache
+C:\Research\Code\C#\MuMaxViewer\MuMaxViewer\obj\x86\Debug\MuMaxViewer.csprojResolveAssemblyReference.cache
+D:\Code\C#\MMViewer\MuMaxViewer\obj\x86\Debug\MuMaxViewer.exe
+D:\Code\C#\MMViewer\MuMaxViewer\obj\x86\Debug\MuMaxViewer.pdb
+D:\Code\C#\MMViewer\MuMaxViewer\bin\Debug\MuMaxViewer.exe
+D:\Code\C#\MMViewer\MuMaxViewer\bin\Debug\MuMaxViewer.pdb
+D:\Code\C#\MMViewer\MuMaxViewer\obj\x86\Debug\MuMaxViewer.csprojResolveAssemblyReference.cache
+D:\Code\C#\MMViewer\MuMaxViewer\obj\x86\Debug\MuMaxViewer.Form1.resources
+D:\Code\C#\MMViewer\MuMaxViewer\obj\x86\Debug\MuMaxViewer.Properties.Resources.resources
+D:\Code\C#\MMViewer\MuMaxViewer\obj\x86\Debug\MuMaxViewer.csproj.GenerateResource.Cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW\bin\Debug\MuMaxViewer.exe
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW\bin\Debug\MuMaxViewer.pdb
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW\obj\x86\Debug\MuMaxViewer.Form1.resources
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW\obj\x86\Debug\MuMaxViewer.Properties.Resources.resources
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW\obj\x86\Debug\MuMaxViewer.csproj.GenerateResource.Cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW\obj\x86\Debug\MuMaxViewer.csproj.CoreCompileInputs.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW\obj\x86\Debug\MuMaxViewer.exe
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW\obj\x86\Debug\MuMaxViewer.pdb
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW\obj\x86\Debug\MuMaxViewer.csprojAssemblyReference.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.1_dmy\bin\Debug\MuMaxViewer.exe
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.1_dmy\bin\Debug\MuMaxViewer.pdb
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.1_dmy\obj\x86\Debug\MuMaxViewer.csprojAssemblyReference.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.1_dmy\obj\x86\Debug\MuMaxViewer.Form1.resources
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.1_dmy\obj\x86\Debug\MuMaxViewer.Properties.Resources.resources
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.1_dmy\obj\x86\Debug\MuMaxViewer.csproj.GenerateResource.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.1_dmy\obj\x86\Debug\MuMaxViewer.csproj.CoreCompileInputs.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.1_dmy\obj\x86\Debug\MuMaxViewer.exe
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.1_dmy\obj\x86\Debug\MuMaxViewer.pdb
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT\bin\Debug\MuMaxViewer.exe
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT\bin\Debug\MuMaxViewer.pdb
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT\obj\x86\Debug\MuMaxViewer.csprojAssemblyReference.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT\obj\x86\Debug\MuMaxViewer.Form1.resources
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT\obj\x86\Debug\MuMaxViewer.Properties.Resources.resources
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT\obj\x86\Debug\MuMaxViewer.csproj.GenerateResource.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT\obj\x86\Debug\MuMaxViewer.csproj.CoreCompileInputs.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT\obj\x86\Debug\MuMaxViewer.exe
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT\obj\x86\Debug\MuMaxViewer.pdb
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT-copy - Copy\bin\Debug\MuMaxViewer.exe
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT-copy - Copy\bin\Debug\MuMaxViewer.pdb
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT-copy - Copy\obj\x86\Debug\MuMaxViewer.csprojAssemblyReference.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT-copy - Copy\obj\x86\Debug\MuMaxViewer.Form1.resources
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT-copy - Copy\obj\x86\Debug\MuMaxViewer.Properties.Resources.resources
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT-copy - Copy\obj\x86\Debug\MuMaxViewer.csproj.GenerateResource.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT-copy - Copy\obj\x86\Debug\MuMaxViewer.csproj.CoreCompileInputs.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT-copy - Copy\obj\x86\Debug\MuMaxViewer.exe
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.3_FFT-copy - Copy\obj\x86\Debug\MuMaxViewer.pdb
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.4_showField\bin\Debug\MuMaxViewer.exe
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.4_showField\bin\Debug\MuMaxViewer.pdb
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.4_showField\obj\x86\Debug\MuMaxViewer.csprojAssemblyReference.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.4_showField\obj\x86\Debug\MuMaxViewer.Form1.resources
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.4_showField\obj\x86\Debug\MuMaxViewer.Properties.Resources.resources
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.4_showField\obj\x86\Debug\MuMaxViewer.csproj.GenerateResource.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.4_showField\obj\x86\Debug\MuMaxViewer.csproj.CoreCompileInputs.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.4_showField\obj\x86\Debug\MuMaxViewer.exe
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.4_showField\obj\x86\Debug\MuMaxViewer.pdb
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.5_sectionsimulation\bin\Debug\MuMaxViewer.exe
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.5_sectionsimulation\bin\Debug\MuMaxViewer.pdb
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.5_sectionsimulation\obj\x86\Debug\MuMaxViewer.csprojAssemblyReference.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.5_sectionsimulation\obj\x86\Debug\MuMaxViewer.Form1.resources
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.5_sectionsimulation\obj\x86\Debug\MuMaxViewer.Properties.Resources.resources
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.5_sectionsimulation\obj\x86\Debug\MuMaxViewer.csproj.GenerateResource.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.5_sectionsimulation\obj\x86\Debug\MuMaxViewer.csproj.CoreCompileInputs.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.5_sectionsimulation\obj\x86\Debug\MuMaxViewer.exe
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.5_sectionsimulation\obj\x86\Debug\MuMaxViewer.pdb
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.6_demagfieldcalculator\bin\Debug\MuMaxViewer.exe
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.6_demagfieldcalculator\bin\Debug\MuMaxViewer.pdb
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.6_demagfieldcalculator\obj\x86\Debug\MuMaxViewer.csprojAssemblyReference.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.6_demagfieldcalculator\obj\x86\Debug\MuMaxViewer.Form1.resources
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.6_demagfieldcalculator\obj\x86\Debug\MuMaxViewer.Properties.Resources.resources
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.6_demagfieldcalculator\obj\x86\Debug\MuMaxViewer.csproj.GenerateResource.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.6_demagfieldcalculator\obj\x86\Debug\MuMaxViewer.csproj.CoreCompileInputs.cache
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.6_demagfieldcalculator\obj\x86\Debug\MuMaxViewer.exe
+D:\Chris_Hammel\Data_Analysis_Tools\MMViewer\MuMaxViewer_GW_v1.6_demagfieldcalculator\obj\x86\Debug\MuMaxViewer.pdb

@@ -260,7 +260,7 @@ namespace MuMaxViewer
             for (int i = 0; i < files.Count; i++)
             {
                 h = H0 + i * dH;
-                ovf2 mi = new ovf2(files[i].FullName,false);
+                ovf2 mi = new ovf2(files[i].FullName);
                 double fzi = fmrfm.CalculateFz(mi) - (0.00206897*(h-H0));
                 H.Add(h);
                 Fz.Add(fzi);
@@ -277,8 +277,8 @@ namespace MuMaxViewer
                 int bg = 2 * i + 1;
                 int real = 2 * i + 2;
                 h = H0 + i * dH;
-                ovf2 m0 = new ovf2(files[bg].FullName,false);
-                ovf2 mi = new ovf2(files[real].FullName,false);
+                ovf2 m0 = new ovf2(files[bg].FullName);
+                ovf2 mi = new ovf2(files[real].FullName);
                 double fzi = fmrfm.CalculateFz(m0, mi);
                 H.Add(h);
                 Fz.Add(fzi);

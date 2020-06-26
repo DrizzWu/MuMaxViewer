@@ -218,11 +218,10 @@ namespace MuMaxViewer
         public int dataBytePosition;
         public byte[] allBytes;
         public List<Vector> data;
-        public bool frompy;
-        public ovf2(string fileLoc,bool frompy)
+        public ovf2(string fileLoc)
         {
             this.fileName = fileLoc;
-            this.frompy = frompy;
+        
             parseFile();
         }
 
@@ -271,8 +270,7 @@ namespace MuMaxViewer
             List<string> header = new List<string>();
             string line = "";
             int n = 1;
-            if(frompy)
-            { n = 2; }
+            
             while (!(line = sr.ReadLine()).Contains("End: Header"))
             {
                 dataBytePosition += line.ToCharArray().Count() + n; // +1 for \n line character
@@ -304,10 +302,7 @@ namespace MuMaxViewer
             Single ss1 = BitConverter.ToSingle(checkByte, 0);
             if (ss1 != 1234567.0)
                 Console.WriteLine("Check byte fail");
-            if (!frompy)
-            { dataBytePosition += 4; }
-            //dataBytePosition += 4;
-
+            dataBytePosition += 4;
             this.header = new ovf2Header(header.ToArray());
             FillData();
 

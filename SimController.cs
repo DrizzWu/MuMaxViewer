@@ -100,8 +100,8 @@ namespace MuMaxViewer
             string file2 = sim.dir + "mx" + (3 * N + 1).ToString() + ".ovf";
             string file3 = sim.dir + "mx" + (3 * N + 2).ToString() + ".ovf";
             List<string> file = new List<string> { file1, file2, file3 };
-            ovf2 m0 = new ovf2(file[pltChoice[0]],false);
-            ovf2 mi = new ovf2(file[pltChoice[1]],false);
+            ovf2 m0 = new ovf2(file[pltChoice[0]]);
+            ovf2 mi = new ovf2(file[pltChoice[1]]);
             double fzi = sim.fmrfm.CalculateFz(m0, mi);
 
             return fzi;
@@ -116,8 +116,8 @@ namespace MuMaxViewer
             string file2 = sim.dir + fName(3 * N + 1);
             string file3 = sim.dir + fName(3 * N + 2);
             List<string> file = new List<string> { file1, file2, file3 };
-            ovf2 m0 = new ovf2(file[pltChoice[0]],false);
-            ovf2 mi = new ovf2(file[pltChoice[1]],false);
+            ovf2 m0 = new ovf2(file[pltChoice[0]]);
+            ovf2 mi = new ovf2(file[pltChoice[1]]);
             double fzi = sim.fmrfm.CalculateFz(m0, mi);
 
             return fzi;
@@ -131,8 +131,8 @@ namespace MuMaxViewer
             string file2 = sim.dir + N.ToString() + "-mf.ovf";
             //string file3 = sim.dir + fName(3 * N + 2);
             Console.WriteLine("Dip pos:" + sim.fmrfm.dipole.r0.ToString());
-            ovf2 m0 = new ovf2(file1,false);
-            ovf2 mi = new ovf2(file2,false);
+            ovf2 m0 = new ovf2(file1);
+            ovf2 mi = new ovf2(file2);
 
             //double fzi = sim.fmrfm.CalculateFz(m0, mi);
             //double fzi = sim.fmrfm.CalculateFzConditional(m0, mi, (v) => { return true; }, MsByPos,plotChoice);
@@ -196,7 +196,7 @@ namespace MuMaxViewer
             string file = sim.dir + 'f' + N.ToString() + ".ovf";
             //string file3 = sim.dir + fName(3 * N + 2);
             Console.WriteLine("Dip pos:" + sim.fmrfm.dipole.r0.ToString());
-            ovf2 m = new ovf2(file,true);
+            ovf2 m = new ovf2(file);
 
             //double fzi = sim.fmrfm.CalculateFz(m0, mi);
             double fzi = sim.fmrfm.CalculateFzConditional(null, m, ops.CalcCondition_range, MsByPos, plotChoice,calccondition);
@@ -211,8 +211,8 @@ namespace MuMaxViewer
             string file2 = sim.dir + fName(2 * N + 1);
             //string file3 = sim.dir + fName(3 * N + 2);
 
-            ovf2 m0 = new ovf2(file1,false);
-            ovf2 mi = new ovf2(file2,false);
+            ovf2 m0 = new ovf2(file1);
+            ovf2 mi = new ovf2(file2);
             double fzi = sim.fmrfm.CalculateFz(m0, mi);
 
             return fzi;
